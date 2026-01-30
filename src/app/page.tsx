@@ -104,7 +104,7 @@ export default function Home() {
       {/* <ResusableToast/> */}
       {/* <ProductStore/> */}
       {/* <Today/> */}
-      {/* <AddInput/> */}
+      <AddInput/>
       {/* <Timer/> */}
       {/* <UserRef/> */}
       {/* <From/> */}
@@ -126,7 +126,7 @@ export default function Home() {
       {/* <StepperPage /> */}
       {/* <NewForm/> */}
       {/* <FlipkartNav/> */}
-      {/* <QueryClient/> */}
+      <QueryClient/>
     </div>
   );
 }
