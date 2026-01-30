@@ -59,6 +59,8 @@ import UTMTracker from "./components/utmTracker/UtmTracker";
 import MultiStepFormPage from "./components/multi_step_form/page";
 import StepperPage from "./components/Stepper/page";
 import NewForm from "./components/new_form/page";
+import FlipkartNav from "./components/Easy/flipkartNav/FlipkartNav";
+import QueryClient from "./components/Easy/queryClient/QueryClient";
 export default function Home() {
   return (
     <div className="">
@@ -122,7 +124,9 @@ export default function Home() {
       {/* <TabsContainer/> */}
       {/* <MultiStepFormPage/> */}
       {/* <StepperPage /> */}
-      <NewForm/>
+      {/* <NewForm/> */}
+      {/* <FlipkartNav/> */}
+      {/* <QueryClient/> */}
     </div>
   );
 }
