@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/circle/Circle.jsx", "src/app/components/Easy/AkshaySidebar/AkshaySidebar.tsx", "src/app/components/Easy/PasswordStrength/PasswordStrength.jsx", "src/app/components/infinite-scroll/page.tsx", "src/app/components/infinite-scroll/component/InfiniteScroll.tsx", "src/app/components/new_form/component/MultistepForm.jsx", "src/app/components/new_form/component/BillingInfoStep.jsx", "src/app/components/new_form/component/PersonalInfoStep.jsx", "src/app/components/new_form/component/PreviewModal.jsx", "src/app/components/new_form/component/ProfessionalInfoStep.jsx", "src/app/components/new_form/hook/useMultistepForm.js", "src/app/components/new_form/validation/schema.js"],
+  "exclude": ["node_modules"]
+}
